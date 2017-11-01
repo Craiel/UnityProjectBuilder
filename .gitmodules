@@ -1,0 +1,3 @@
+[submodule "Assets/Scripts/Craiel/Essentials"]
+	path = Assets/Scripts/Craiel/Essentials
+	url = https://github.com/Craiel/UnityEssentials
