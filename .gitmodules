@@ -1,3 +1,16 @@
 [submodule "Assets/Scripts/Craiel/Essentials"]
 	path = Assets/Scripts/Craiel/Essentials
 	url = https://github.com/Craiel/UnityEssentials
+[submodule "Assets/Scripts/Craiel/GDX.AI.Sharp"]
+	path = Assets/Scripts/Craiel/GDX.AI.Sharp
+	url = https://github.com/Craiel/GDX.AI.Sharp
+	branch = Unity
+[submodule "Assets/Scripts/Craiel/Audio"]
+	path = Assets/Scripts/Craiel/Audio
+	url = https://github.com/Craiel/UnityAudio
+[submodule "Assets/Scripts/Craiel/VFX"]
+	path = Assets/Scripts/Craiel/VFX
+	url = https://github.com/Craiel/UnityVFX
+[submodule "Assets/Scripts/Craiel/GameData"]
+	path = Assets/Scripts/Craiel/GameData
+	url = https://github.com/Craiel/UnityGameData
