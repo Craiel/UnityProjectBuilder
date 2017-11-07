@@ -2,7 +2,6 @@
 {
     using Craiel.Essentials;
     using Craiel.Essentials.Contracts;
-    using Enums;
     using Input;
 
     public class EssentialsConfig : IEssentialConfig
@@ -13,7 +12,6 @@
         public void Configure()
         {
             EssentialsCore.DefaultInputState = InputStates.Default;
-            EssentialsCore.InputControlType = typeof(Controls);
         }
     }
 }

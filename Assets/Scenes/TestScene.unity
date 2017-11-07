@@ -314,8 +314,10 @@ GameObject:
   - component: {fileID: 1260855800}
   - component: {fileID: 1260855799}
   - component: {fileID: 1260855798}
+  - component: {fileID: 1260855803}
+  - component: {fileID: 1260855802}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Controller
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -354,7 +356,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -376,13 +378,46 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1260855797}
-  m_LocalRotation: {x: 0.057366893, y: -0.8689091, z: 0.1037242, w: 0.4805698}
-  m_LocalPosition: {x: 20.895424, y: 13.689821, z: 19.005787}
+  m_LocalRotation: {x: 0.105929516, y: -0.87907624, z: 0.23085292, w: 0.40337437}
+  m_LocalPosition: {x: 28.663353, y: 22.646646, z: 27.762798}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1260855802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1260855797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924e7e11f091467eb6e80c22f5f697a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsEnabled: 1
+  CursorOwnership: 1
+  ClampInDegrees: {x: 360, y: 180}
+  Sensitivity: {x: 2, y: 2}
+  Smoothing: {x: 3, y: 3}
+  TargetDirection: {x: 0, y: 0}
+  TargetCharacterDirection: {x: 0, y: 0}
+--- !u!114 &1260855803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1260855797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7b4ec070ab24cd295add77c68cb1a46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0.5
+  AccelerationAmount: 3
+  AccelerationRatio: 1
+  SlowDownRatio: 0.5
 --- !u!1 &1827268938
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,7 +1,6 @@
 namespace Assets.Scripts.CoreGame.Input
 {
     using Craiel.Essentials.Contracts;
-    using Enums;
 
     using States;
     
