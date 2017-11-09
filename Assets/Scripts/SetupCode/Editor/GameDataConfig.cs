@@ -20,6 +20,7 @@ namespace Assets.Scripts.SetupCode.Editor
         {
             GameDataBuilder.TargetFile = Constants.GameDataDataFile;
 
+            GameDataEditorWindow.AddWorkSpace(1, "Test");
             GameDataEditorWindow.AddPanel<GameDataAudio>("Audio");
             // GameDataEditorWindow.AddPanel<GameDataVfx>("VFX");
         }

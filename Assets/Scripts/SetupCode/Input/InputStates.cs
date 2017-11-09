@@ -1,8 +1,7 @@
 namespace Assets.Scripts.CoreGame.Input
 {
     using Craiel.Essentials.Contracts;
-
-    using States;
+    using Craiel.Essentials.Input;
     
     public static class InputStates
     {
