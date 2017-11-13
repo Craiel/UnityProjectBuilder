@@ -8,7 +8,7 @@
     using Assets.Scripts.Craiel.Essentials.Logging;
     using Assets.Scripts.Craiel.Essentials.Resource;
     using Assets.Scripts.Craiel.Essentials.Scene;
-    using Assets.Scripts.SetupCode;
+    using Assets.Scripts.Craiel.GameData;
     using NLog;
     using NLog.Config;
     using NLog.Targets;

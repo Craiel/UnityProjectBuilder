@@ -1,9 +1,10 @@
 ﻿namespace Assets.Scripts.CoreGame
 {
     using Craiel.Audio.Contracts;
+    using Craiel.Audio.Data;
     using Craiel.Essentials;
     using Craiel.Essentials.Resource;
-    using SetupCode;
+    using Craiel.GameData;
     using UnityEngine;
     using UnityEngine.Audio;
 
@@ -16,7 +17,8 @@
         {
             AudioCore.DynamicAudioSourceResource = ResourceKey.Create<GameObject>("Audio/DynamicAudioSource");
             AudioCore.MasterMixerResource = ResourceKey.Create<AudioMixer>("Audio/MasterMixer");
-            AudioCore.GameDataRuntimeResolver = GameRuntimeData.Instance;
+            
+            GameRuntimeData.RegisterData<RuntimeAudioData>();
         }
     }
 }
