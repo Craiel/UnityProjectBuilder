@@ -1,8 +1,8 @@
-﻿namespace SetupCode
+﻿namespace Assets.Scripts.SetupCode
 {
-    using Assets.Scripts.Craiel.Essentials;
-    using Assets.Scripts.Craiel.Essentials.IO;
-    using Assets.Scripts.Craiel.Essentials.Resource;
+    using Craiel.Essentials;
+    using Craiel.Essentials.IO;
+    using Craiel.Essentials.Resource;
     using UnityEngine;
 
     public static class Constants

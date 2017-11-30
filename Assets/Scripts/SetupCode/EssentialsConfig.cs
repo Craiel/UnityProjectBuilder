@@ -1,8 +1,8 @@
-﻿namespace Assets.Scripts.CoreGame
+﻿namespace Assets.Scripts.SetupCode
 {
     using Craiel.Essentials;
     using Craiel.Essentials.Contracts;
-    using Input;
+    using Craiel.Essentials.Input;
 
     public class EssentialsConfig : IEssentialConfig
     {
@@ -11,7 +11,15 @@
         // -------------------------------------------------------------------
         public void Configure()
         {
-            EssentialsCore.DefaultInputState = InputStates.Default;
+            this.ConfigureInput();
+        }
+
+        // -------------------------------------------------------------------
+        // Private
+        // -------------------------------------------------------------------
+        private void ConfigureInput()
+        {
+            EssentialsCore.DefaultInputState = InputStateDefault.Instance;
         }
     }
 }
