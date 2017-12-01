@@ -10,14 +10,12 @@
         // -------------------------------------------------------------------
         // Public
         // -------------------------------------------------------------------
-        
-        
         public void Configure()
         {
             GameDataBuilder.TargetFile = Constants.GameDataDataFile;
 
             GameDataEditorWindow.AddWorkSpace(1, "Test");
-            GameDataEditorWindow.AddPanel<GameDataAudio>("Audio");
+            GameDataEditorWindow.AddPanel<GameDataAudio>("Audio"); 
             // GameDataEditorWindow.AddPanel<GameDataVfx>("VFX");
         }
     }

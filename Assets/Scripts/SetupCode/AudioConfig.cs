@@ -1,8 +1,8 @@
-﻿namespace Assets.Scripts.CoreGame
+﻿namespace Assets.Scripts.SetupCode
 {
+    using Craiel.Audio;
     using Craiel.Audio.Contracts;
     using Craiel.Audio.Data;
-    using Craiel.Essentials;
     using Craiel.Essentials.Resource;
     using Craiel.GameData;
     using UnityEngine;

@@ -41,12 +41,13 @@
 
             GameEvents.InstantiateAndInitialize();
 
+            AudioSystem.InstantiateAndInitialize();
+            
+            InputHandler.InstantiateAndInitialize();
+
+            // Data needs to be near the end
             GameRuntimeData.InstantiateAndInitialize();
             GameRuntimeData.Instance.Load(Constants.GameDataResourceKey);
-
-            AudioSystem.InstantiateAndInitialize();
-
-            InputHandler.InstantiateAndInitialize();
         }
     }
 }
