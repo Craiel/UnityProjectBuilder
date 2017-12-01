@@ -18,6 +18,6 @@ MonoBehaviour:
   Description: 
   AudioChannel: 2
   PlayBehavior: 1
-  OnlyOneAtATime: 0
+  OnlyOneAtATime: 1
   AudioClips:
   - Resource: {fileID: 8300000, guid: 3a2beba68a81a9b46bfb255af16eda5d, type: 3}

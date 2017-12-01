@@ -9,10 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0da16649f9e7720428d03e72cc0ae244, type: 3}
-  m_Name: UI Cancel
+  m_Name: UI Hover
   m_EditorClassIdentifier: 
-  Guid: a3a0b4b14a5df18409b1e8dd11d4cb70
-  Name: UI Cancel
+  Guid: bcfa5f1c52166f5498b0e95d722cdcd5
+  Name: UI Hover
   DisplayName: 
   Notes: 
   Description: 
@@ -20,4 +20,4 @@ MonoBehaviour:
   PlayBehavior: 1
   OnlyOneAtATime: 1
   AudioClips:
-  - Resource: {fileID: 8300000, guid: 92a22ca98144b45428e942ad8ab34b16, type: 3}
+  - Resource: {fileID: 8300000, guid: ea7f19e4ade57854ba2a2aec8199ac0a, type: 3}
