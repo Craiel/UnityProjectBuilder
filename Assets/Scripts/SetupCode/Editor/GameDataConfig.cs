@@ -4,6 +4,7 @@
     using Assets.Scripts.Craiel.GameData.Editor.Builder;
     using Assets.Scripts.Craiel.GameData.Editor.EditorWindow;
     using Craiel.Audio.Editor;
+    using Craiel.VFX.Editor;
 
     public class GameDataConfig : IGameDataConfig
     {
@@ -16,7 +17,7 @@
 
             GameDataEditorWindow.AddWorkSpace(1, "Test");
             GameDataEditorWindow.AddPanel<GameDataAudio>("Audio"); 
-            // GameDataEditorWindow.AddPanel<GameDataVfx>("VFX");
+            GameDataEditorWindow.AddPanel<GameDataVFX>("VFX");
         }
     }
 }
