@@ -9,10 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfa84a93b69c4352ac4e2c9e30387d12, type: 3}
-  m_Name: Test
+  m_Name: Simple Vfx Test
   m_EditorClassIdentifier: 
-  Guid: ec7116ffa89a39648a938b899e6005be
-  Name: Test
+  Guid: d60b1e44cf7df72469b4c3762006c7e9
+  Name: Simple Vfx Test
   DisplayName: 
   Notes: 
   Description: 
