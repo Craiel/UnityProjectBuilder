@@ -13,6 +13,7 @@
         {
             SceneToolbar.RegisterWidget<SceneToolbarGameData>();
             SceneToolbar.RegisterWidget<SceneToolbarUtils>();
+            SceneToolbar.RegisterWidget<SceneToolbarBuildGeneration>();
         }
     }
 }
