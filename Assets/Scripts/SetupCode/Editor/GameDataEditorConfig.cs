@@ -1,4 +1,6 @@
-﻿namespace Assets.Scripts.SetupCode.Editor
+﻿using IGameDataEditorConfig = Craiel.GameData.Editor.Contracts.IGameDataEditorConfig;
+
+namespace Assets.Scripts.SetupCode.Editor
 {
     using Assets.Scripts.Craiel.GameData.Contracts;
     using Assets.Scripts.Craiel.GameData.Editor.Builder;
@@ -6,7 +8,7 @@
     using Craiel.GameData.Editor.Window;
     using Craiel.VFX.Editor;
 
-    public class GameDataConfig : IGameDataConfig
+    public class GameDataEditorConfig : IGameDataEditorConfig
     {
         // -------------------------------------------------------------------
         // Public

@@ -5,6 +5,7 @@
     using Craiel.Essentials.Debug.Gym;
     using Craiel.Essentials.Event;
     using Craiel.Essentials.Input;
+    using Craiel.Essentials.Logging;
     using Craiel.Essentials.Resource;
     using Craiel.Essentials.Scene;
     using Craiel.GameData;
@@ -32,7 +33,7 @@
         // -------------------------------------------------------------------
         private void InitEngine()
         {
-            this.InitDefaultNLog();
+            NLogUtils.InitializeDefaultConfig();
 
             SceneObjectController.InstantiateAndInitialize();
 
