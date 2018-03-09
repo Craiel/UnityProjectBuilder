@@ -11,9 +11,8 @@
         // -------------------------------------------------------------------
         public void Configure()
         {
-            // Register the audio components
-            VFXEditorCore.AddComponent<AudioVFXMusicEditorComponent>();
-            VFXEditorCore.AddComponent<AudioVFXSFXEditorComponent>(); 
+            // Register the audio component factory
+            VFXEditorCore.AddComponent(new AudioVFXEditorComponentFactory());
         }
     }
 }
